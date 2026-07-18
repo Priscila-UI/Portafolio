@@ -1,0 +1,25 @@
+.container{
+
+    width:min(var(--container-width),90%);
+
+    margin-inline:auto;
+
+}
+
+.grid{
+
+    display:grid;
+
+}
+
+.flex{
+
+    display:flex;
+
+}
+
+.hidden{
+
+    display:none;
+
+}

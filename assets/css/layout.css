@@ -1,25 +1,21 @@
 .container{
-
-    width:min(var(--container-width),90%);
-
-    margin-inline:auto;
-
+    width: min(1200px, 90%);
+    margin: 0 auto;
 }
 
-.grid{
-
-    display:grid;
-
+.section{
+    padding: 120px 0;
 }
 
-.flex{
-
-    display:flex;
-
+img{
+    display:block;
+    max-width:100%;
 }
 
-.hidden{
+a{
+    text-decoration:none;
+}
 
-    display:none;
-
+ul{
+    list-style:none;
 }
